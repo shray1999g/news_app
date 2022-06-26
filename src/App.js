@@ -15,7 +15,7 @@ const App = ()=> {
   
     return (
       <>
-        <BRouter>
+        <HashRouter>
           <Navbar />
           <LoadingBar
             height={3.5}
@@ -35,7 +35,7 @@ const App = ()=> {
               <Route exact path="/technology" element={<News setProgress={setProgress} apiKey={apiKey} key="technology" pageSize={pageSize} country="in" category="technology" />}></Route>                 
             </Routes>
           </div>
-        </BRouter>
+        </HashRouter>
       </>
     );
 }
