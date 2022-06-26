@@ -4,7 +4,7 @@ import News from "./Components/News";
 import About from "./Components/About";
 import LoadingBar from 'react-top-loading-bar'
 import React, { useState } from "react";
-import { BrowserRouter as BRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter as HashRouter, Routes, Route } from "react-router-dom";
 
 
 const App = ()=> {
